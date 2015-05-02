@@ -1,0 +1,149 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+
+<link rel="stylesheet" type="text/css" href="project_style.css">
+<link href='http://fonts.googleapis.com/css?family=Noto+Sans|Great+Vibes' rel='stylesheet' type='text/css'>
+
+<link rel="stylesheet" href="flexslider.css" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+
+<script src="jquery.flexslider.js"></script>
+
+<script type="text/javascript" charset="utf-8">
+  $(window).load(function() {
+    $('.flexslider').flexslider();
+  });
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+function MM_setTextOfLayer(objId,x,newText) { //v9.0
+  with (document) if (getElementById && ((obj=getElementById(objId))!=null))
+    with (obj) innerHTML = unescape(newText);
+}
+function MM_popupMsg(msg) { //v1.0
+  alert(msg);
+}
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+function MM_setTextOfTextfield(objId,x,newText) { //v9.0
+  with (document){ if (getElementById){
+    var obj = getElementById(objId);} if (obj) obj.value = newText;
+  }
+}
+function MM_showHideLayers() { //v9.0
+  var i,p,v,obj,args=MM_showHideLayers.arguments;
+  for (i=0; i<(args.length-2); i+=3) 
+  with (document) if (getElementById && ((obj=getElementById(args[i]))!=null)) { v=args[i+2];
+    if (obj.style) { obj=obj.style; v=(v=='show')?'visible':(v=='hide')?'hidden':v; }
+    obj.visibility=v; }
+}
+</script>
+<script>
+/*
+</body>
+</html>
+*/
+</script>
+
+</head>
+<body onLoad="MM_preloadImages('skills/anim.0218.jpg', 'skills/xcode.png', 'skills/maya.png', 'skills/sketchup.png', 'skills/python.png', 'skills/java.png', 'skills/code.png', 'skills/page.png', 'skills/matlab.png', 'skills/coding_queen.jpg')">
+	<div id="total_header">
+		<div id="header">
+			<a href="portfolio.html" class="plain_url" id="name">
+				Kaitlyn Lee
+			</a>
+		</div> <!---close header-->
+
+		<div id="menu">
+			<ul>
+			<li><a href="portfolio.html">Home</a>
+			</li>
+			<li><a href="experience.html">Experience</a>
+				<ul>
+					<li><a href="experience.html#CS">CS Internships</a></li>
+					<li><a href="experience.html#EE">EE Internships</a></li>
+					<li><a href="experience.html#USC">Work at USC</a></li>
+					<li><a href="experience.html#Ambassador">Student Rep</a></li>
+				</ul>
+			</li>
+			<li><a href="projects.html">Projects</a>
+				<ul>
+					<li><a href="projects.html#hackathons">Hackathon Apps</a></li>
+					<li><a href="projects.html#class">Class Projects</a></li>
+					<li><a href="projects.html#other">Other</a></li>
+				</ul>
+			</li>
+			<li><a href="education.html">Education</a></li>
+			<li><a href="skills.html">Skills</a>
+			</li>
+			<li><a href="awards.html">Awards</a>
+				<ul>
+					<li><a href="awards.html#recognition">Recognition</a></li>
+					<li><a href="awards.html#scholarships">Scholarships</a></li>
+				</ul>
+				</li>
+			<li><a href="involvement.html">Involvement</a>
+				<ul>
+					<li><a href="involvement.html#USC">USC</a></li>
+					<li><a href="involvement.html#Outreach">Outreach</a></li>
+				</ul>
+			</li>
+			<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</div> <!--menu-->
+	</div> <!-- close total header -->
+	<div id="outercontainer"> 
+		<div class="page_title">Skills</div>
+		<center>
+			<div class="skills_holder">
+				<img src="skills/computer.png" height="240px">
+				<div class="skills_pic_holder">
+					<img src="skills/coding_queen.jpg" id="pic"height="100%" width="100%">
+				</div> <!-- close skills pic holder -->
+			</div> <!-- close skills holder -->
+		</center>
+		<div class = "block_holder">
+		<div class="skill_block" onMouseOver="MM_swapImage('pic','','skills/xcode.png',1)" onMouseOut="MM_swapImage('pic','','skills/coding_queen.jpg',1)">Objective C</div>
+		<div class="skill_block" onMouseOver="MM_swapImage('pic','','skills/anim.0218.jpg',1)" onMouseOut="MM_swapImage('pic','','skills/coding_queen.jpg',1)">C++</div>
+		<div class="skill_block" onMouseOver="MM_swapImage('pic','','skills/java.png',1)" onMouseOut="MM_swapImage('pic','','skills/coding_queen.jpg',1)">Java</div>
+		<div class="skill_block" onMouseOver="MM_swapImage('pic','','skills/python.png',1)" onMouseOut="MM_swapImage('pic','','skills/coding_queen.jpg',1)">Python</div>
+		<div class="skill_block" onMouseOver="MM_swapImage('pic','','skills/code.png',1)" onMouseOut="MM_swapImage('pic','','skills/coding_queen.jpg',1)">HTML</div>
+		<div class="skill_block" onMouseOver="MM_swapImage('pic','','skills/page.png',1)" onMouseOut="MM_swapImage('pic','','skills/coding_queen.jpg',1)">CSS</div>
+		<div class="skill_block" onMouseOver="MM_swapImage('pic','','skills/matlab.png',1)" onMouseOut="MM_swapImage('pic','','skills/coding_queen.jpg',1)">Matlab</div>
+		<div class="skill_block" onMouseOver="MM_swapImage('pic','','skills/maya.png',1)" onMouseOut="MM_swapImage('pic','','skills/coding_queen.jpg',1)">Maya</div>
+		<div class="skill_block" onMouseOver="MM_swapImage('pic','','skills/sketchup.png',1)" onMouseOut="MM_swapImage('pic','','skills/coding_queen.jpg',1)">Sketchup</div>
+		</div> <!-- block holder -->
+		<!-- C++, Objective C, Java, Python, HTML, CSS, Matlab
+		Maya, Google Sketchup -->
+
+
+	</div> <!-- close outercontainer-->
+	<br style="clear:both">
+		<div class="social_bar">
+			<a href="http://www.twitter.com/k8lynjlee" target="_blank"><img class="social" src="webicon-twitter.png"></a>
+			<a href="http://www.github.com/k8lynjlee" target="_blank"><img class="social" src="webicon-github.png"></a>
+			<a href="http://www.linkedin.com/in/kaitlynjlee" target="_blank"><img class="social" src="webicon-linkedin.png"></a>
+	</div> <!-- close social bar-->
+</body>
+</html>

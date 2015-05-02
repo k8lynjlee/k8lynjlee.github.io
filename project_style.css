@@ -1,0 +1,281 @@
+
+	#outercontainer{
+		top:90px;
+		width: 980px;
+		min-height: 500px;
+		margin:auto;
+		margin-top: 0px;
+		position: relative;
+		clear:both;
+		padding-bottom: 20px;
+		z-index: 0;
+	}
+
+	#home{
+		top:90px;
+		width: 800px;
+		min-height: 460px;
+		margin:auto;
+		margin-top: 0px;
+		position: relative;
+		clear:both;
+		padding-bottom: 20px;
+		z-index: -1;
+	}
+
+	#total_header{
+		position:fixed;
+		clear:both;
+		width: 100%;
+		top:0px;
+		left:0px;
+		height: 100px;
+		z-index: 100;
+		background-color: black;
+	}
+	#header {
+		background-color: black;
+		width: 100%;
+		height: 70px;
+		left:0px;
+		top:0px;
+		text-align: center;
+	}
+	#name{
+		font-family: 'Great Vibes';
+		font-size: 32pt;
+		text-align: center;
+		width: 100%;
+		color:#672248;
+		line-height: 70px;
+	}
+	hr {
+		width: 90%;
+		align:center;
+	}
+	
+	.plain_url {
+		text-decoration: none;
+	}
+
+	#menu {
+		display: block;
+		width: 944px;
+		height:30px;
+		margin: auto;
+		top:60px;
+	}
+
+	#menu *{
+		padding:0;
+		margin:0;
+	}
+
+	#menu li{
+		/*display: table-cell;*/
+		position: relative;
+		float: left;
+		list-style: none;
+		width: 118px;
+		/*118*/
+	}
+
+	#menu li a{
+		font-family: 'Noto Sans';
+		background-color: black;
+		color:white;
+		float: left;
+		display: block;
+		text-decoration: none;
+		line-height: 30px;
+		text-align: center;
+		width: 118px; 
+		/*118*/
+	}
+
+	#menu li a:hover{
+		color: #87F1FF;
+	}
+	
+
+	#menu ul ul{
+		/*display: table-cell;*/
+		position: absolute;
+		top: 30px;
+		visibility: hidden;
+		font-size: 10pt;
+	}
+
+	#menu ul li:hover ul{
+		visibility:visible;
+	}
+
+	#profile {
+		width: 300px;
+		float:left;
+		margin-top: 60px;
+		border-radius: 150px;
+	}
+	#description {
+		text-align: right;
+		font-size: 28pt;
+		font-family: 'Noto Sans';
+		color:white;
+		float:left;
+		margin-left: 20px;
+		margin-right: 20px;
+		margin-top: 120px;
+	}
+	#contact_text {
+		text-align: center;
+		font-size: 28pt;
+		font-family: 'Noto Sans';
+		color:white;
+		margin-top: 100px;
+	}
+	#contact_text a:link{
+		color:#87F1FF;
+		text-decoration: none;
+	}
+
+	#contact_text a:visited{
+		/*color:blue;*/
+		/*color:#672248;*/
+		color:#87F1FF;
+		text-decoration: none;
+	}
+
+	.social {
+		height:26px;
+		width: 26px;
+		float:right;
+		margin-right: 17px;
+		margin-top:17px;
+		margin-bottom:17px;
+	}
+
+	.section {
+		width: 90%;
+		color:white;
+		margin:auto;
+		padding:10px;
+	}
+
+	.section_link {
+		font-family: 'Noto Sans';
+		font-size: 16pt;
+		font-weight: bold;
+		margin-left:6px;
+	}
+
+	.detail_section {
+		background-color: rgba(255, 255, 255, 0.8);
+		margin:6px;
+		margin-bottom: 10px;
+		padding:10px;
+		padding-bottom: 20px;
+		color:black;
+		font-family: 'Noto Sans';
+		min-height: 120px;
+		overflow: hidden;
+
+	}
+	.page_title {
+		font-family: 'Noto Sans';
+		text-align: center;
+		font-size: 32pt;
+		margin-top:30px;
+		color:white;
+	}
+
+	.detail_section_title {
+		font-size: 14pt;
+		font-weight: bold;
+		display:inline-block;
+		margin-bottom: 6px;
+	}
+
+	.has_effect:hover {
+		color:#114B5F;
+	}
+
+	.skill_block {
+		width:90px;
+		height:90px;
+		margin:5px;
+		float:left;
+		background-color: #103A4C;
+		text-align: center;
+		color:white;
+		border-radius: 45px;
+		line-height: 90px;
+		font-family: 'Noto Sans';
+		cursor: hand;
+	}
+
+	.skill_block:hover {
+		background-color: #810641;
+	}
+
+	.block_holder {
+		width:600px;
+		margin:auto;
+	}
+
+	.skills_holder {
+		position:relative;
+		z-index: 0;
+		margin-bottom: 20px;
+	}
+
+	.skills_pic_holder {
+		position: absolute;
+		z-index: 10;
+		bottom: 103;
+		right:345;
+		height:119px;
+		width: 210px;
+	}
+
+	body {
+		background-image: url(blurredbackground27.jpg);
+    	background-size: cover;
+    	background-attachment: fixed;
+	}
+
+	.flexslider {
+		z-index: 0;
+	}
+	
+	.social_bar {
+		bottom:0px;
+		right:0px;
+		position: fixed;
+	}
+
+	form {
+		margin-left: 100px;
+		color:white;
+	}
+
+	.label {
+		color:white;
+		font-family: 'Noto Sans';
+		font-style: 20pt;
+		margin-top: 10px;
+	}
+
+	.intern_holder{
+		margin-top: 10px;
+		margin-bottom: 10px;
+		clear:both;
+		height:190px;
+		width: 760px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.intern {
+		width: 190px;
+		height: 190px;
+		float:left;
+	}
